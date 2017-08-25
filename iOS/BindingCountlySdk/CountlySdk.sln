@@ -1,0 +1,27 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountlySdk", "CountlySdk\CountlySdk.csproj", "{206C7710-4B68-4B51-B43B-BA6087139F39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{206C7710-4B68-4B51-B43B-BA6087139F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206C7710-4B68-4B51-B43B-BA6087139F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206C7710-4B68-4B51-B43B-BA6087139F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206C7710-4B68-4B51-B43B-BA6087139F39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.StandardHeader = $2
+		$2.IncludeInNewFiles = True
+		$0.VersionControlPolicy = $3
+		$3.inheritsSet = Mono
+	EndGlobalSection
+EndGlobal

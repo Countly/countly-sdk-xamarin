@@ -1,0 +1,16 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <attr path="/api/package[@name='ly.count.android.sdk.messaging']/class[@name='CountlyMessagingService' and @extends='android.app.IntentService']" name="extends">mono.android.app.IntentService</attr>
+  <attr path="/api/package[@name='ly.count.android.sdk.messaging']/class[@name='CountlyMessaging']"  name="visibility">public</attr>
+
+  <!--<attr path="/api/package[@name='ly.count.android.sdk.messaging']/class[@name='CountlyMessagingService']"  name="visibility">public</attr>-->
+<!--<attr path="/api/package[@name='ly.count.android.sdk']/class[@name='Event']" name="visibility">public</attr>-->
+
+</metadata>

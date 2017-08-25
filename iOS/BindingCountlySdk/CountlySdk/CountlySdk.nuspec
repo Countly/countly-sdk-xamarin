@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>CountlySDK.Xamarin.iOS</id>
+    <version>1.0.2</version>
+    <authors>Countly</authors>
+    <owners>countly</owners>
+     <licenseUrl>https://github.com/Countly/countly-sdk-ios/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Countly is an open source and enterprise Mobile Analytics, Web Analytics, Mobile Marketing and Mobile Performance Management Platform.</description>
+    <releaseNotes>Initial release: "Xamarin.iOS Bindings for Countly Analytics"</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Countly Analytics Xamarin ios</tags>
+  </metadata>
+  
+   <files>
+    
+    <!--Xamarin.iOS-->
+    <file src="..\CountlySdk\CountlySdk\bin\Release\CountlySDK.Xamarin.iOS.dll" target="lib\MonoTouch10\CountlySDK.Xamarin.iOS.dll" />
+ 
+    <!--Xamarin.iOS Unified-->
+    <file src="..\CountlySdk\CountlySdk\bin\Release\CountlySDK.Xamarin.iOS.dll" target="lib\Xamarin.iOS10\CountlySDK.Xamarin.iOS.dll"/>
+	
+	</files>
+</package>

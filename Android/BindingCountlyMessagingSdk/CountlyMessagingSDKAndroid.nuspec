@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>CountlySDK.Messaging.Xamarin.Android</id>
+    <version>1.0.0</version>
+    <authors>Countly</authors>
+    <owners>Countly</owners>
+    <licenseUrl>https://github.com/Countly/countly-sdk-android/blob/master/LICENSE</licenseUrl>   
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Countly’s unique plugin architecture, rich default feature set, deployment flexibility and tailored SLA coverage makes it the perfect fit for mobile and web analytics needs of enterprises. </description>
+    <releaseNotes>Xamarin.Android Bindings for Countly Analytics</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>countly analytics xamarin</tags>  
+ <dependencies>
+        <dependency id="Xamarin.GooglePlayServices.Gcm" version="42.1024.0-beta1" />
+    </dependencies>	
+	 </metadata>
+	<files>	
+    <!--Core-->   
+    <!--Xamarin.Android-->
+    <file src="..\CountySdk\CountlyMessagingSdk\bin\Release\CountlyMessagingSdk.dll" target="lib\MonoAndroid10\CountlyMessagingSdk.dll" />
+    <file src="..\CountySdk\CountlyMessagingSdk\bin\Release\CountlyMessagingSdk.pdb" target="lib\MonoAndroid10\CountlyMessagingSdk.xml" />
+	</files>
+ 
+</package>

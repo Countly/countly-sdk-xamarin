@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>CountlySDK.Xamarin.Android</id>
+    <version>1.0.0</version>
+    <authors>Countly</authors>
+    <owners>Countly</owners>
+    <licenseUrl>https://github.com/Countly/countly-sdk-android/blob/master/LICENSE</licenseUrl>   
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Countly’s unique plugin architecture, rich default feature set, deployment flexibility and tailored SLA coverage makes it the perfect fit for mobile and web analytics needs of enterprises. </description>
+    <releaseNotes>Xamarin.Android Bindings for Countly Analytics</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>countly analytics xamarin</tags>  	
+	 </metadata>
+	<files>	
+    <!--Core-->   
+    <!--Xamarin.Android-->
+    <file src="..\CountySdk\CountySdk\bin\Release\CountySdk.dll" target="lib\MonoAndroid10\CountySdk.dll" />
+    <file src="..\CountySdk\CountySdk\bin\Release\CountySdk.pdb" target="lib\MonoAndroid10\CountySdk.xml" />
+	</files>
+ 
+</package>

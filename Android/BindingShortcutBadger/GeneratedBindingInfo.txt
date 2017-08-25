@@ -1,0 +1,6 @@
+Binding for:
+me.leolin:ShortcutBadger:1.1.16@aar
+
+Dependencies:
+
+ShortcutBadger-1.1.16.aar,    Path=C:\Users\skands\.gradle\caches\modules-2\files-2.1\me.leolin\ShortcutBadger\1.1.16\1d58a5fcdac511a4235e65bf64f0f1bc4bc4e1bc\ShortcutBadger-1.1.16.aar
