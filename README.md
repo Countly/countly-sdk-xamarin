@@ -1,3 +1,5 @@
+### This repo has been archived
+
 **QUESTIONS?** Visit [http://community.count.ly](http://community.count.ly).
 
 ## Xamarin SDK for Countly
